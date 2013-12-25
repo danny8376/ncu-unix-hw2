@@ -1,0 +1,11 @@
+A Script to backup files
+
+Usage: ./myback.csh [-d] [-i] LIST BAK_PATH
+
+Arguments:
+  LIST		A file list for files to backup (separate by space)
+  BAK_PATH	Path to storge backup
+
+Options:
+  -d		Include directories
+  -i		Incremental backup
